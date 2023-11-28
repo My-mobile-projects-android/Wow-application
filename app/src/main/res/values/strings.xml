@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">wow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome_slogan">Sans frais c\'est zooo</string>
+    <string name="welcome_text">Envoyez de l\'argent à vos \nproches SANS FRAIS !</string>
+    <string name="inscription_name">Votre nom et prénom</string>
+    <string name="inscription_phone">Votre numéro de télephone</string>
+    <string name="inscription_code">Votre code secret</string>
+</resources>

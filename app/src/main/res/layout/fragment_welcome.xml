@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingHorizontal="40dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo_3d" />
+
+        <TextView
+            android:id="@+id/welcome_slogan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunitosansblack"
+            android:text="@string/welcome_slogan"
+            android:textColor="@color/gray"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/welcome_texte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="40dp"
+            android:fontFamily="@font/nunitosansbold"
+            android:text="@string/welcome_text"
+            android:textAlignment="center"
+            android:textSize="25dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:background="@drawable/rounded_button"
+                android:paddingVertical="17dp"
+                android:text="Creer un compte gratuit"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_button_white"
+                android:paddingVertical="17dp"
+                android:textColor="@color/gray"
+                android:text="Se connecter"
+                android:textAllCaps="false"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
