@@ -6,5 +6,13 @@
     <string name="welcome_text">Envoyez de l\'argent à vos \nproches SANS FRAIS !</string>
     <string name="inscription_name">Votre nom et prénom</string>
     <string name="inscription_phone">Votre numéro de télephone</string>
-    <string name="inscription_code">Votre code secret</string>
+    <string name="inscription_code">Votre code secret(4 chiffres)</string>
+    <string name="login_code">Code secret requis pour devérouiller</string>
+    <string name="transfert_text">Envoyer de l\'argent \n à vos proches</string>
+    <string name="transfert_name">Nom du bénéficiaires</string>
+    <string name="transfert_phone">Numéro wow du bénéficiaire</string>
+    <string name="transfert_mount">Montant (minimun 1 F)</string>
+    <string name="succes_text">Transaction effectuée \n avec succès !</string>
+
+
 </resources>

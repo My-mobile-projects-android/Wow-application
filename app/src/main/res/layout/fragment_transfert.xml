@@ -13,49 +13,52 @@
         android:paddingHorizontal="40dp"
         android:orientation="vertical">
 
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="wrap_content"
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:src="@drawable/logo_3d" />
+            android:textSize="30dp"
+            android:fontFamily="@font/nunitosansbold"
+            android:text="@string/transfert_text" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="60dp"
             android:orientation="vertical">
 
             <EditText
                 android:layout_width="match_parent"
-                android:hint="@string/inscription_name"
+                android:hint="@string/transfert_name"
                 android:layout_height="match_parent"
-                android:layout_marginBottom="15dp"
+                android:layout_marginVertical="20dp"
                 android:minHeight="48dp"
                 android:minWidth="48dp"/>
             <EditText
                 android:layout_width="match_parent"
-                android:hint="@string/inscription_phone"
+                android:hint="@string/transfert_phone"
                 android:minHeight="48dp"
                 android:minWidth="48dp"
-                android:layout_marginBottom="15dp"
                 android:layout_height="match_parent"/>
             <EditText
                 android:layout_width="match_parent"
-                android:hint="@string/inscription_code"
+                android:maxLength="4"
+                android:hint="@string/transfert_mount"
                 android:minHeight="48dp"
                 android:minWidth="48dp"
+                android:layout_marginVertical="20dp"
                 android:layout_height="match_parent"/>
         </LinearLayout>
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/button-valider"
+            android:id="@+id/buttonvalider"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="35dp"
-            android:layout_marginHorizontal="30dp"
             android:background="@drawable/rounded_button"
-            android:paddingVertical="17dp"
-            android:text="Valider"
+            android:layout_marginTop="20dp"
+            android:paddingVertical="18dp"
+            android:text="Envoyer"
             android:textAllCaps="false"
             android:textColor="@color/white"
             android:textSize="16dp" />
