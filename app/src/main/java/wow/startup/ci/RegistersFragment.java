@@ -12,36 +12,30 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import wow.startup.ci.databinding.FragmentWelcomeBinding;
+import wow.startup.ci.databinding.FragmentRegistersBinding;
 
 
-public class WelcomeFragment extends Fragment {
-    private FragmentWelcomeBinding binding;
+public class RegistersFragment extends Fragment {
+
+private FragmentRegistersBinding binding;
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        binding = FragmentWelcomeBinding.inflate(inflater, container, false);
+        binding = FragmentRegistersBinding.inflate(inflater, container, false);
         return binding.getRoot();
     }
 
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        binding.register.setOnClickListener(new View.OnClickListener() {
+        binding.buttonvalider.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 NavController navController = Navigation.findNavController(view);
-                navController.navigate(R.id.action_welcomeFragment_to_registersFragment);
+                navController.navigate(R.id.action_registersFragment_to_loginFragment);
             }
         });
 
-        binding.login.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                NavController navController = Navigation.findNavController(view);
-                navController.navigate(R.id.action_welcomeFragment_to_loginFragment);
-            }
-        });
     }
 }
