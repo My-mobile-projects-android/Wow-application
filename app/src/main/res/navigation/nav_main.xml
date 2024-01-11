@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/welcomeFragment"
-        android:name="wow.startup.ci.WelcomeFragment"
+        android:name="wow.startup.ci.ui.WelcomeFragment"
         android:label="fragment_welcome"
         tools:layout="@layout/fragment_welcome" >
         <action
@@ -19,12 +19,12 @@
     </fragment>
     <fragment
         android:id="@+id/loginFragment"
-        android:name="wow.startup.ci.LoginFragment"
+        android:name="wow.startup.ci.ui.LoginFragment"
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" />
     <fragment
         android:id="@+id/registersFragment"
-        android:name="wow.startup.ci.RegistersFragment"
+        android:name="wow.startup.ci.ui.RegistersFragment"
         android:label="fragment_registers"
         tools:layout="@layout/fragment_registers" >
         <action

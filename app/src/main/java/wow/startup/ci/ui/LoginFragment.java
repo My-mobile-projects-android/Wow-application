@@ -1,4 +1,4 @@
-package wow.startup.ci;
+package wow.startup.ci.ui;
 
 import android.os.Bundle;
 
@@ -9,6 +9,7 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 import wow.startup.ci.databinding.FragmentLoginBinding;
 import wow.startup.ci.databinding.FragmentWelcomeBinding;
@@ -29,4 +30,7 @@ private FragmentLoginBinding binding;
         super.onViewCreated(view, savedInstanceState);
 
     }
+
 }
+
+
